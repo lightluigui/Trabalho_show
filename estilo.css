@@ -1,7 +1,69 @@
 body{
-    background-color: rgb(59, 59, 59);
+    background-image: url(https://images.alphacoders.com/278/278051.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
 
+    
+    }
+    #fundo{
+    background: rgba(14, 13, 13, 0.795);
+    padding: 1px;
+    margin-top: -1px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    color: white;
+    }
+  table{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 1300px;
+    margin-top: -10px; 
+
+  }
+  
+  #fogueira{
+    background-image: url(foguera-removebg-preview.jpg);
+    width: 10px;
+    padding: 30px;
+    background-position-x: 50.5%;
+    background-size:100px 80px;
+    background-attachment: fixed;
+  }
+  #home{
+    text-indent: 50%;
+    font-size: 20px;
+  }
+  
+  #w{
+    text-indent: 50%;
+    font-size: 20px;
+  }
+  #a{
+    text-indent: 50%;
+    font-size: 20px;
+  }
+#s{
+    text-indent: 50%;
+    font-size: 20px;
 }
-h1{
-    color: antiquewhite;
+#d{
+    text-indent: 50%;
+    font-size: 20px;
 }
+#e{
+    text-indent: 50%;
+    font-size: 20px;
+}
+#q{
+    text-indent: 50%;
+    font-size: 20px;
+}
+#sobre{
+    text-indent: 50%;
+    font-size: 20px;
+}
+
+  a{
+    color: rgb(255, 255, 255);
+  }
