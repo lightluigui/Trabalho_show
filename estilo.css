@@ -20,14 +20,24 @@ body{
  
 
  img{
+  padding: 15px;
   margin: left;
   display: block;
  }
+
+ #sts{
+margin-left: -3px;
+ 
+ }
  
  #boss{
+  word-spacing: 2.5px;
   color: white;
   font-size: 20px;
+    
  }
+
+
  #imagem{
   float: left;
  }
@@ -37,8 +47,11 @@ body{
     width: 10px;
     padding: 30px;
     background-position-x: 50.5%;
+    background-position-y: 50.5% ;
     background-size:100px 80px;
-    background-attachment: fixed;
+   background-attachment: scroll;
+  
+    
   }
   #home{
     text-indent: 50%;
@@ -80,6 +93,7 @@ body{
     text-decoration: none;
    
   }
+  
   a:before {
     content: "";
     position: absolute;
@@ -87,7 +101,8 @@ body{
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #d49d2e;
+    
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -102,7 +117,9 @@ body{
   h1{
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #d49d2e;
+   
+    
   }
   p{
     font-size: 18px;
