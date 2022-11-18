@@ -1,11 +1,14 @@
+
+
 body{
     background-image: url(https://images.alphacoders.com/278/278051.jpg);
     background-size: cover;
     background-attachment: fixed; 
     }
     #fundo{
-      background: rgba(14, 13, 13, 0.795);
+      background: rgba(0, 0, 0, 0.795);
       padding: 1em;
+      height: 2048px;
       margin-top: -1px;
       margin-bottom: -10px;
       color: white;
@@ -15,6 +18,7 @@ body{
     padding: 15px;
     width: 1300px;
     margin-top: -10px; 
+
 
   }
  
@@ -135,5 +139,16 @@ margin-left: -3px;
   }
   li{
     font-size: 20px;
+   
   }
  
+button{
+  color: #d49d2e;
+  background-color: rgba(14, 13, 13, 0);
+  border: none; 
+  font-size: 32px;
+  
+ 
+}
+
+  
